@@ -298,6 +298,13 @@ button,
   background-image: var(--gradient);
 }
 
+@supports (background-image: var(--gradient)) {
+  .projects__wrapper {
+    scrollbar-color: var(--accent-color-3) var(--accent-color);
+    scrollbar-width: thin;
+  }
+}
+
 /* Header & Navigation Section */
 .header {
   width: 100%;
