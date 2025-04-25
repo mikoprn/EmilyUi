@@ -311,6 +311,10 @@ button,
   gap: clamp(0rem, 3vw, var(--size-3-base));
 }
 
+.nav__link {
+  font-weight: var(--fw-light);
+}
+
 .nav__link:is(:hover, :focus-visible) {
   text-decoration: 2px solid #fc00ff underline;
   text-underline-offset: var(--size-x-small);
