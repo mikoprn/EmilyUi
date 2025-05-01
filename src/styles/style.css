@@ -322,9 +322,7 @@ button,
 }
 
 #themeSwitch {
-  padding: 0;
-  border-radius: 50%;
-  background-color: transparent;
+  cursor: pointer;
 }
 
 #themeSwitch svg:last-child {
@@ -347,7 +345,7 @@ button,
 main,
 .main {
   margin-top: var(--clamp-7-xl);
-  animation: var(--appers);
+  animation: var(--transitionPrimary);
 }
 
 /* Home Section */
