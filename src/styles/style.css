@@ -322,7 +322,9 @@ button,
 }
 
 #themeSwitch {
-  cursor: pointer;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
 }
 
 #themeSwitch svg:last-child {
@@ -345,7 +347,7 @@ button,
 main,
 .main {
   margin-top: var(--clamp-7-xl);
-  animation: var(--transitionPrimary);
+  animation: var(--appers);
 }
 
 /* Home Section */
@@ -555,6 +557,10 @@ footer {
   .services__wrapper {
     flex-direction: column;
     align-items: center;
+  }
+
+  .services__item {
+    width: 100%;
   }
 
   .footer__media {
